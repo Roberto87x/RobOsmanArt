@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale=1>
+    <title>Rob Osman Art</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <header>
+    <div class = "heading-container">
+      <div class="h1-container">
+        <h1>Rob Osman Art</h1>
+      </div>
+    </div>
+    <div id="top-banner">
+      <a class="top-banner-item" href = "index.html">Home</a>
+      <a class="top-banner-item" href = "gallery.html">Gallery</a>
+      <a class="top-banner-item">About</a>
+      <a class="top-banner-item">Contact</a>
+    </div>
+  </header>
+  
+<div id="form-intro">
+    <p>For any enquiries, please send me a messsage below and I'll get back to you as soon as possible.</p>
+</div>
+  <div id="form-container">
+  <form id="form" method="POST" action="https://formspree.io/f/xvojqqwl">
+    <label for="name">Name:</label>
+    <input id="name" type="text" name="name">
+
+    <label for="email">Email:</label>
+    <input id="email" type="text" name="email">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+
+    <button id="submit-btn" type="submit">
+        <p>Send Message</p>
+    </button>
+
+  </form>
+  </div>
+</body>
+</html>
