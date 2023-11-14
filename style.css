@@ -313,11 +313,11 @@ input {
     width: 400px;
     padding: 10px;
 }
-#submit-btn {
+/* #submit-btn {
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 10px;
-}
+} */
 #submit-btn:hover {
     background-color: darkgrey;
 }
@@ -363,18 +363,19 @@ input {
     height: 140px;
     
 }
-.enquire-btn {
+#enquire-btn {
     font-family:'Libre Baskerville', serif;
     color: black;
     border: 2px;
     border-style: solid;
     border-color: black;
-    padding: 10px;
     text-decoration: none;
- 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
 }
 
-.enquire-btn:hover {
+#enquire-btn:hover {
 background-color: darkgray;
 }
 
@@ -480,8 +481,9 @@ background-color: darkgray;
 
 }
 
-/* @media screen and (max-width: 992px) {
-    .gallery-item:hover > * {
-        display: none; */
+@media screen and (max-width: 992px) {
+    .gallery-item:hover > .hover-content > * {
+        display: none;
         
-    
+    }
+}
